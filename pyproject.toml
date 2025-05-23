@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "cols-and-pits"
+version = "0.0.1"
+authors = [
+  { name="Martin Anschutz", email="martin.anschuetz@vert-tec.io" },
+]
+description = "Module for Real-Time Signal Processing"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-only"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/vert-tec/cols-and-pits"
+Issues = "https://github.com/vert-tec/cols-and-pits/issues"
